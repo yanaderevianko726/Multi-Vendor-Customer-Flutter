@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "660812778841",
+    "firebase_url": "https://swushd-kitchens-21e4a-default-rtdb.firebaseio.com",
+    "project_id": "swushd-kitchens-21e4a",
+    "storage_bucket": "swushd-kitchens-21e4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660812778841:android:83268dd521081240e01048",
+        "android_client_info": {
+          "package_name": "com.swushd.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660812778841-kd89frpn8k90pevkcmef38c6njin1tsc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swushd.customer",
+            "certificate_hash": "1b861bbcb42e23e0532dca1c1ef53db9dd2994cd"
+          }
+        },
+        {
+          "client_id": "660812778841-csp3l0bkd9cg276u4vpqmi3hn3hg0cg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzSWV1uYT0dKW9WPc801ypkbV85ZRtUcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660812778841-csp3l0bkd9cg276u4vpqmi3hn3hg0cg3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "660812778841-5ap6oboegeth2msafql2aue62s54m46p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.swushd.customer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

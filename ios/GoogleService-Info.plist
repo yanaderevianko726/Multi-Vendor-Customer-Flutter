@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>660812778841-5ap6oboegeth2msafql2aue62s54m46p.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.660812778841-5ap6oboegeth2msafql2aue62s54m46p</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>660812778841-c7pj5kumcjtr2gvr722m9u9fk9c0f8u1.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCXVUyo7TmnX5PGppIrUyd-IqeQ-pCBRys</string>
+	<key>GCM_SENDER_ID</key>
+	<string>660812778841</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.swushd.customer</string>
+	<key>PROJECT_ID</key>
+	<string>swushd-kitchens-21e4a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>swushd-kitchens-21e4a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:660812778841:ios:d8af9ad9b4da2042e01048</string>
+	<key>DATABASE_URL</key>
+	<string>https://swushd-kitchens-21e4a-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
