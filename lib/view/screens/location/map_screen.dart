@@ -1,4 +1,3 @@
-import 'dart:typed_data';
 import 'dart:ui';
 
 import 'package:efood_multivendor/data/model/response/address_model.dart';

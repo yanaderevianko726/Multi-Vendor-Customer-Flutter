@@ -1,5 +1,4 @@
 import 'dart:collection';
-import 'dart:typed_data';
 import 'dart:ui';
 
 import 'package:efood_multivendor/controller/location_controller.dart';

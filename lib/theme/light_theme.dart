@@ -17,7 +17,7 @@ ThemeData light = ThemeData(
   ),
   textButtonTheme: TextButtonThemeData(
     style: TextButton.styleFrom(
-      primary: Color(0xFFEF7822),
+      foregroundColor: Color(0xFFEF7822),
     ),
   ),
 );

@@ -815,9 +815,7 @@ class _ProductBottomSheetState extends State<ProductBottomSheet> {
                                         : Row(children: [
                                             ElevatedButton(
                                               style: ElevatedButton.styleFrom(
-                                                minimumSize: Size(50, 50),
-                                                primary:
-                                                    Theme.of(context).cardColor,
+                                                minimumSize: Size(50, 50), backgroundColor: Theme.of(context).cardColor,
                                                 shape: RoundedRectangleBorder(
                                                   borderRadius:
                                                       BorderRadius.circular(
