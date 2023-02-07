@@ -103,21 +103,22 @@ class _PaymentBottomSheetState extends State<PaymentBottomSheet> {
               ),
             ),
             Expanded(
-              child: SingleChildScrollView(
-                child: Container(
-                  width: double.infinity,
-                  padding: const EdgeInsets.only(
-                    left: 18,
-                    right: 18,
-                    top: 32,
+              child: Container(
+                width: double.infinity,
+                height: double.infinity,
+                padding: const EdgeInsets.only(
+                  left: 18,
+                  right: 18,
+                  top: 32,
+                ),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(topRadius),
+                    topRight: Radius.circular(topRadius),
                   ),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(topRadius),
-                      topRight: Radius.circular(topRadius),
-                    ),
-                    color: Colors.white,
-                  ),
+                  color: Colors.white,
+                ),
+                child: SingleChildScrollView(
                   child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -240,23 +241,16 @@ class _PaymentBottomSheetState extends State<PaymentBottomSheet> {
                         SizedBox(height: 18,),
                         Container(
                           width: double.infinity,
-                          height: 48,
-                          child: Padding(
-                            padding: const EdgeInsets.only(
-                              left: 14,
-                              right: 14,
+                          height: 64,
+                          child: CustomButton(
+                            buttonText: '+ Add another credit/debit card'.tr,
+                            radius: 12,
+                            margin: EdgeInsets.all(
+                              Dimensions.PADDING_SIZE_SMALL,
                             ),
-                            child: CustomButton(
-                              height: 44,
-                              buttonText: '+ Add another credit/debit card'.tr,
-                              radius: 12,
-                              margin: EdgeInsets.all(
-                                Dimensions.PADDING_SIZE_SMALL,
-                              ),
-                              onPressed: () {
-                                _onTapAddPayment(context);
-                              },
-                            ),
+                            onPressed: () {
+                              _onTapAddPayment(context);
+                            },
                           ),
                         ),
                       ]),
