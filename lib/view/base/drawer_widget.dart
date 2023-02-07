@@ -255,41 +255,41 @@ class DrawerWidget extends StatelessWidget {
                     ),
                   ),
                 ),
-                InkWell(
-                  onTap: () {
-                    onClickDrawerItem(4);
-                  },
-                  child: Container(
-                    height: 44,
-                    color: index == 4
-                        ? Colors.white
-                        : Theme.of(context).primaryColor,
-                    padding: EdgeInsets.symmetric(
-                        horizontal: itemHPadding, vertical: 6),
-                    margin: EdgeInsets.symmetric(vertical: itemVPadding),
-                    child: Row(
-                      children: [
-                        Image.asset(
-                          '${index == 4 ? 'assets/image/language_red.png' : 'assets/image/language_white.png'}',
-                          width: iSize,
-                          fit: BoxFit.fitWidth,
-                        ),
-                        SizedBox(
-                          width: 12,
-                        ),
-                        Text(
-                          'language'.tr,
-                          style: TextStyle(
-                            fontSize: fSize,
-                            color: index == 4
-                                ? Theme.of(context).primaryColor
-                                : Colors.white,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
+                // InkWell(
+                //   onTap: () {
+                //     onClickDrawerItem(4);
+                //   },
+                //   child: Container(
+                //     height: 44,
+                //     color: index == 4
+                //         ? Colors.white
+                //         : Theme.of(context).primaryColor,
+                //     padding: EdgeInsets.symmetric(
+                //         horizontal: itemHPadding, vertical: 6),
+                //     margin: EdgeInsets.symmetric(vertical: itemVPadding),
+                //     child: Row(
+                //       children: [
+                //         Image.asset(
+                //           '${index == 4 ? 'assets/image/language_red.png' : 'assets/image/language_white.png'}',
+                //           width: iSize,
+                //           fit: BoxFit.fitWidth,
+                //         ),
+                //         SizedBox(
+                //           width: 12,
+                //         ),
+                //         Text(
+                //           'language'.tr,
+                //           style: TextStyle(
+                //             fontSize: fSize,
+                //             color: index == 4
+                //                 ? Theme.of(context).primaryColor
+                //                 : Colors.white,
+                //           ),
+                //         ),
+                //       ],
+                //     ),
+                //   ),
+                // ),
                 SizedBox(
                   height: 48,
                 ),

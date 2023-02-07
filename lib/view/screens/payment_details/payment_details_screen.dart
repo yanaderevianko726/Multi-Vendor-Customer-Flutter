@@ -2,6 +2,8 @@ import 'package:efood_multivendor/helper/route_helper.dart';
 import 'package:efood_multivendor/theme/colors.dart';
 import 'package:efood_multivendor/util/dimensions.dart';
 import 'package:efood_multivendor/util/styles.dart';
+import 'package:efood_multivendor/view/base/custom_button.dart';
+import 'package:efood_multivendor/view/base/payment_bottom_sheet.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -193,8 +195,43 @@ class _PaymentDetailScreenState extends State<PaymentDetailScreen> {
               ),
             ),
           ),
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.only(
+                left: 14,
+                right: 14,
+                top: 18,
+                bottom: 14,
+              ),
+              child: Column(
+                children: [
+                  Spacer(),
+                  CustomButton(
+                    buttonText: '+ Add another credit/debit card'.tr,
+                    radius: 12,
+                    margin: EdgeInsets.all(
+                      Dimensions.PADDING_SIZE_SMALL,
+                    ),
+                    onPressed: () {
+                      _onTapAddPayment(context);
+                    },
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
+    );
+  }
+
+  _onTapAddPayment(BuildContext context) {
+    Get.bottomSheet(
+      PaymentBottomSheet(
+        isUpdate: true,
+      ),
+      backgroundColor: Colors.transparent,
+      isScrollControlled: true,
     );
   }
 }
