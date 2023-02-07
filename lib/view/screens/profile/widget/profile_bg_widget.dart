@@ -1,4 +1,3 @@
-import 'package:badges/badges.dart';
 import 'package:efood_multivendor/controller/cart_controller.dart';
 import 'package:efood_multivendor/util/dimensions.dart';
 import 'package:efood_multivendor/util/styles.dart';
@@ -67,7 +66,7 @@ class ProfileBgWidget extends StatelessWidget {
                             RouteHelper.getCartRoute(),
                           ),
                           child: Badge(
-                            badgeContent: Text(
+                            label: Text(
                               '${cartController.cartList != null && cartController.cartList.isNotEmpty ? cartController.cartList.length : 0}',
                               style: robotoRegular.copyWith(
                                 color: Colors.white,

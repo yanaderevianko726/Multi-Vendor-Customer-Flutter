@@ -1,4 +1,3 @@
-import 'package:badges/badges.dart';
 import 'package:efood_multivendor/controller/cart_controller.dart';
 import 'package:efood_multivendor/controller/restaurant_controller.dart';
 import 'package:efood_multivendor/data/model/response/product_model.dart';
@@ -106,7 +105,7 @@ class _VenueProductsScreenState extends State<VenueProductsScreen> {
                             RouteHelper.getCartRoute(),
                           ),
                           child: Badge(
-                            badgeContent: Text(
+                            label: Text(
                               '${cartController.cartList != null && cartController.cartList.isNotEmpty ? cartController.cartList.length : 0}',
                               style: robotoRegular.copyWith(
                                 color: Colors.white,

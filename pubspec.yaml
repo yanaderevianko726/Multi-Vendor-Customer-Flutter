@@ -38,8 +38,7 @@ dependencies:
   phone_number: ^0.12.0+1
   country_code_picker: ^2.0.2
   cached_network_image: ^3.2.1
-#  google_sign_in: ^5.2.1
-#  flutter_facebook_auth: ^3.5.7
+
   fwfh_text_style: ^2.7.2
   photo_view: ^0.14.0
   dotted_border: ^2.0.0+2
@@ -57,6 +56,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+dependency_overrides:
+  modal_bottom_sheet:
+    git:
+      url: https://github.com/danReynolds/modal_bottom_sheet.git
+      path: modal_bottom_sheet
 
 flutter:
   uses-material-design: true

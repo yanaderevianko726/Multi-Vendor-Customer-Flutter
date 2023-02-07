@@ -1,4 +1,3 @@
-import 'package:badges/badges.dart';
 import 'package:efood_multivendor/controller/cart_controller.dart';
 import 'package:efood_multivendor/controller/localization_controller.dart';
 import 'package:efood_multivendor/helper/route_helper.dart';
@@ -72,7 +71,7 @@ class ChooseLanguageScreen extends StatelessWidget {
                           RouteHelper.getCartRoute(),
                         ),
                         child: Badge(
-                          badgeContent: Text(
+                          label: Text(
                             '${cartController.cartList != null && cartController.cartList.isNotEmpty ? cartController.cartList.length : 0}',
                             style: robotoRegular.copyWith(
                               color: Colors.white,

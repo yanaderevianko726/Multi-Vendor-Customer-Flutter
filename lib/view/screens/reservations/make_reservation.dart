@@ -1,4 +1,3 @@
-import 'package:badges/badges.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:dotted_line/dotted_line.dart';
 import 'package:efood_multivendor/controller/auth_controller.dart';
@@ -211,7 +210,7 @@ class _MakeReservationScreenState extends State<MakeReservationScreen> {
                                       RouteHelper.getReserveCart(),
                                     ),
                                     child: Badge(
-                                      badgeContent: Text(
+                                      label: Text(
                                         '${cartController.cartList != null && cartController.cartList.isNotEmpty ? cartController.cartList.length : 0}',
                                         style: robotoRegular.copyWith(
                                           color: Colors.white,

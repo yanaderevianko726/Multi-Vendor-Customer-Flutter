@@ -1,4 +1,3 @@
-import 'package:badges/badges.dart';
 import 'package:efood_multivendor/controller/cart_controller.dart';
 import 'package:efood_multivendor/controller/cuisine_controller.dart';
 import 'package:efood_multivendor/controller/product_controller.dart';
@@ -110,7 +109,7 @@ class _CuisineProductScreenState extends State<CuisineProductScreen>
                                 RouteHelper.getCartRoute(),
                               ),
                               child: Badge(
-                                badgeContent: Text(
+                                label: Text(
                                   '${cartController.cartList != null && cartController.cartList.isNotEmpty ? cartController.cartList.length : 0}',
                                   style: robotoRegular.copyWith(
                                     color: Colors.white,
